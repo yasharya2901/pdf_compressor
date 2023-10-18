@@ -1,7 +1,7 @@
 #! /bin/bash
 
-# This shell script is written by Yash Arya.
-# Special thanks to https://www.github./com/skushagra for helping.
+# This shell script was written by Yash Arya.
+# Special thanks to https://www.github./com/skushagra for debugging the script and setting up this repository.
 # This script is written for compressing PDF files.
 
 input=$(zenity --file-selection --title="Select a File")
