@@ -21,6 +21,7 @@ outputfile="$path/"$filename\ compressed.pdf""
 
 if [ -f "$outputfile" ]; then
     echo "File compressed successfully."
+    echo "File saved at: $outputfile"
 else
     echo "The file didn't compress"
     exit 2
